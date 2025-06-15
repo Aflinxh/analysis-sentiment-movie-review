@@ -88,3 +88,4 @@ dist/
 .gdrive/
 
 datasets/
+output/
