@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.venv/
+
+# Conda environment
+*.conda
+*.env
+*.yml
+*.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log & debug files
+*.log
+*.out
+
+# Data files (you can version control small samples if needed)
+data/
+*.csv
+*.tsv
+*.zip
+*.gz
+*.tar
+*.npz
+*.npy
+*.h5
+*.pkl
+*.joblib
+
+# Trained models
+models/
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.ckpt
+*.pb
+*.hdf5
+
+# TensorBoard & experiment logs
+runs/
+logs/
+events.out.*
+
+# Output & cache
+__output__/
+*.cache/
+.cache/
+*.tmp
+*.bak
+
+# Jupyter Notebook runtime
+*.nbconvert.ipynb
+jupyter_notebook_config.py
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Other tool-specific
+mlruns/       # MLflow tracking
+wandb/        # Weights & Biases logs
+lightning_logs/  # PyTorch Lightning
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Colab & Google Drive
+.gdrive/
+
+datasets/
